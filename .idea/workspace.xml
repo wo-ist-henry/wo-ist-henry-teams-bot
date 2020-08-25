@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5147aa4c-b028-4978-99eb-b1e4725b750a" name="Default Changelist" comment="Wochentag() jest Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5147aa4c-b028-4978-99eb-b1e4725b750a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/bot-helper.func.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot-helper.func.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot-helper.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot-helper.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598380158998</updated>
-      <workItem from="1598380160671" duration="6196000" />
+      <workItem from="1598380160671" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Commit">
       <created>1598382088395</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598383998105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WoIstHenry() mit Jest Test">
+      <created>1598386442717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598386442717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,33 +165,34 @@
     <MESSAGE value="Inital Commit" />
     <MESSAGE value="Implementing Jestconfig" />
     <MESSAGE value="Wochentag() jest Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wochentag() jest Test" />
+    <MESSAGE value="WoIstHenry() mit Jest Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="WoIstHenry() mit Jest Test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598383300465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383300465" />
-    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2" timestamp="1598385576028">
+    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2" timestamp="1598386442284">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598385576028" />
-    <state width="2539" height="394" key="GridCell.Tab.0.bottom" timestamp="1598386375877">
+    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386442284" />
+    <state width="2539" height="394" key="GridCell.Tab.0.bottom" timestamp="1598386445087">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
-    <state width="2539" height="394" key="GridCell.Tab.0.center" timestamp="1598386375877">
+    <state width="2539" height="394" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386445087" />
+    <state width="2539" height="394" key="GridCell.Tab.0.center" timestamp="1598386445087">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
-    <state width="2539" height="394" key="GridCell.Tab.0.left" timestamp="1598386375877">
+    <state width="2539" height="394" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386445087" />
+    <state width="2539" height="394" key="GridCell.Tab.0.left" timestamp="1598386445086">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
-    <state width="2539" height="394" key="GridCell.Tab.0.right" timestamp="1598386375877">
+    <state width="2539" height="394" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386445086" />
+    <state width="2539" height="394" key="GridCell.Tab.0.right" timestamp="1598386445087">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
+    <state width="2539" height="394" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386445087" />
     <state width="2539" height="484" key="GridCell.Tab.1.bottom" timestamp="1598386283595">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -258,5 +262,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386054980" />
+    <state x="988" y="275" width="583" height="849" key="find.popup" timestamp="1598386465864">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="275" width="583" height="849" key="find.popup/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386465864" />
   </component>
 </project>

@@ -61,7 +61,6 @@ export function woIstHenry(): string {
 
 export function botReaction(username: string, frage: string): string {
     let replyText = '';
-    console.log(frage);
     switch (frage) {
         case 'hallo':
             replyText = `Hallo ${username}, wie kann ich dir helfen?`;
