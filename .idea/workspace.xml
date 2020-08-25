@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5147aa4c-b028-4978-99eb-b1e4725b750a" name="Default Changelist" comment="Implementing Jestconfig">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wo-ist-henry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wo-ist-henry.iml" afterDir="false" />
+    <list default="true" id="5147aa4c-b028-4978-99eb-b1e4725b750a" name="Default Changelist" comment="Wochentag() jest Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot-helper.func.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot-helper.func.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot-helper.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot-helper.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Users\Henry\WebstormProjects\wo-ist-henry\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="Jest.Wochentags Test.text">
+  <component name="RunManager" selected="Jest.woIstHenry Antwort">
     <configuration name="Wochentags Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -76,6 +74,33 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="woIstHenry Antwort" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/bot-helper.spec.ts" />
+      <test-names>
+        <test-name value="woIstHenry Antwort" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="woIstHenry Antwort.$result Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/bot-helper.spec.ts" />
+      <test-names>
+        <test-name value="woIstHenry Antwort" />
+        <test-name value="$result Test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -88,6 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.woIstHenry Antwort" />
+        <item itemvalue="Jest.woIstHenry Antwort.$result Test" />
         <item itemvalue="Jest.Wochentags Test.text" />
         <item itemvalue="Jest.Wochentags Test" />
         <item itemvalue="npm.test" />
@@ -102,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598380158998</updated>
-      <workItem from="1598380160671" duration="3700000" />
+      <workItem from="1598380160671" duration="6196000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Commit">
       <created>1598382088395</created>
@@ -118,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598383115403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Wochentag() jest Test">
+      <created>1598383998105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598383998105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,41 +161,102 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inital Commit" />
     <MESSAGE value="Implementing Jestconfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Jestconfig" />
+    <MESSAGE value="Wochentag() jest Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wochentag() jest Test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598383300465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383300465" />
-    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2" timestamp="1598383876365">
+    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2" timestamp="1598385576028">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383876365" />
-    <state width="2539" height="394" key="GridCell.Tab.0.bottom" timestamp="1598383763401">
+    <state x="615" y="40" width="1098" height="1019" key="CommitChangelistDialog2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598385576028" />
+    <state width="2539" height="394" key="GridCell.Tab.0.bottom" timestamp="1598386375877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383763401" />
-    <state width="2539" height="394" key="GridCell.Tab.0.center" timestamp="1598383763401">
+    <state width="2539" height="394" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
+    <state width="2539" height="394" key="GridCell.Tab.0.center" timestamp="1598386375877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383763401" />
-    <state width="2539" height="394" key="GridCell.Tab.0.left" timestamp="1598383763400">
+    <state width="2539" height="394" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
+    <state width="2539" height="394" key="GridCell.Tab.0.left" timestamp="1598386375877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383763400" />
-    <state width="2539" height="394" key="GridCell.Tab.0.right" timestamp="1598383763401">
+    <state width="2539" height="394" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
+    <state width="2539" height="394" key="GridCell.Tab.0.right" timestamp="1598386375877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="394" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383763401" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1598381992311">
+    <state width="2539" height="394" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386375877" />
+    <state width="2539" height="484" key="GridCell.Tab.1.bottom" timestamp="1598386283595">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="345" key="SettingsEditor/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598381992311" />
+    <state width="2539" height="484" key="GridCell.Tab.1.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.1.center" timestamp="1598386283594">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.1.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283594" />
+    <state width="2539" height="484" key="GridCell.Tab.1.left" timestamp="1598386283594">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.1.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283594" />
+    <state width="2539" height="484" key="GridCell.Tab.1.right" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.1.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.2.bottom" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.2.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.2.center" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.2.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.2.left" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.2.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.2.right" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.2.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.3.bottom" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.3.bottom/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.3.center" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.3.center/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.3.left" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.3.left/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state width="2539" height="484" key="GridCell.Tab.3.right" timestamp="1598386283595">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="484" key="GridCell.Tab.3.right/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386283595" />
+    <state x="781" y="345" key="SettingsEditor" timestamp="1598383963844">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="345" key="SettingsEditor/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598383963844" />
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598381159630" />
-    <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598382881879">
+    <state x="692" y="811" width="2376" height="1216" key="VCS.FileHistoryDialog" timestamp="1598384203281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598382881879" />
+    <state x="692" y="811" width="2376" height="1216" key="VCS.FileHistoryDialog/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598384203281" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598384290778">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598384290778" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1598384203281">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598384203281" />
+    <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598386054980">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1598386054980" />
   </component>
 </project>
