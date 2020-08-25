@@ -3,9 +3,6 @@ import moment = require('moment');
 export function getWochentag(): string {
     let wochentag = 'Tag';
     switch ( moment().isoWeekday()) {
-        case 0:
-            wochentag = 'Sonntag';
-            break;
         case 1:
             wochentag = 'Montag';
             break;
@@ -23,6 +20,9 @@ export function getWochentag(): string {
             break;
         case 6:
             wochentag = 'Samstag';
+            break;
+        case 7:
+            wochentag = 'Sonntag';
             break;
     }
     return wochentag;
